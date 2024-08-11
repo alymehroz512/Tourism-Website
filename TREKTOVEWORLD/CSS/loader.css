@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Agbalumo&family=Alfa+Slab+One&family=Alumni+Sans+Inline+One&family=Bebas+Neue&family=Bungee+Inline&family=Dancing+Script&family=Fjalla+One&family=Gloria+Hallelujah&family=Kenia&family=Lato&family=Noto+Serif+Old+Uyghur&family=Pinyon+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Agbalumo&family=Alfa+Slab+One&family=Alumni+Sans+Inline+One&family=Bebas+Neue&family=Bungee+Inline&family=Dancing+Script&family=Fjalla+One&family=Gloria+Hallelujah&family=Kenia&family=Lato&family=Noto+Serif+Old+Uyghur&family=Pinyon+Script&family=Quicksand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Agbalumo&family=Alex+Brush&family=Alfa+Slab+One&family=Alumni+Sans+Inline+One&family=Bebas+Neue&family=Bungee+Inline&family=Dancing+Script&family=Fjalla+One&family=Gloria+Hallelujah&family=Kenia&family=Lato&family=Noto+Serif+Old+Uyghur&family=Pinyon+Script&family=Quicksand&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    background-image: url("../IMAGES/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+}
+
+/* Pre-loader Styles */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #BDB76B;
+  justify-content: center;
+  align-items: center;
+}
+
+.preloader-content {
+  text-align: center;
+}
+
+.loading-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  border-radius: 50%;
+  margin: 0 5px;
+  animation: dotAnimation 1s infinite ease-in-out;
+}
+
+@keyframes dotAnimation {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+
+
+h3 {
+  font-family: 'Quicksand';
+  color: #000;
+  font-weight: 888;
+}
+
+.website-name {
+  font-weight: 888;
+  color: #fff;
+  text-align: center;
+  font-family: 'Quicksand';
+}
+
+.first::first-letter {
+  font-size: 800%;
+  font-family: 'Alex Brush';
+  color: #fff;
+}
+
+.last-letters{
+  letter-spacing: 6px;
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Alex Brush';
+}
+
+
+.webiste-quote {
+  text-align: left;
+  margin-top: -40px;
+  color: #fff;
+  font-family: 'Quicksand';
+}
+
+
+.one-liner {
+  font-family: 'Quicksand';
+  font-size: 15px;
+  color: #000;
+  font-weight: 888;
+}
+
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 888;
+  border-radius: 0%;
+  font-family: 'Quicksand';
+}
+
+
+.social-icons {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 888;
+}
+
+
+
+
+
+
+
+
+

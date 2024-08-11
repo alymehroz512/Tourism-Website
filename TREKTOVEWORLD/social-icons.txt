@@ -1,0 +1,6 @@
+ <div class="social-icons mt-2 mb-2 text-center">
+                                            <a href="#" style="color: #3b5998;"><i class="fab fa-facebook"></i></a>
+                                            <a href="#" style="color: #ed302f;"><i class="fab fa-youtube"></i></a>
+                                            <a href="#" style="color: #ac2bac;"><i class="fab fa-instagram"></i></a>
+                                            <a href="#" style="color: #55acee;"><i class="fab fa-twitter"></i></a>
+                                          </div>

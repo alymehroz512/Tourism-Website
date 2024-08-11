@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap Css Linkage -->
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <!-- Bootstrap Js Linkage -->
+    <script src="../JS/bootstrap.js"></script>
+    <!-- Fontawesome Linkage -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- External Css Linkage -->
+    <link rel="stylesheet" href="../CSS/payment.css">
+    <!-- Favicon Icon Linkage -->
+    <link rel="shortcut icon" type="image/x-icon" href="../IMAGES/favicon.ico">
+
+    <title>Payment</title>
+
+</head>
+<body>
+
+
+        <div class="container-fluid mt-2 p-5">
+            <div class="row bg-black opacity-75 mt-2 mb-2">
+                <h3 class="payment-heading"><i class="fa-solid fa-plane"></i>&nbsp;TrekTroveWorld - Pyament</h3>
+                <p class="payment-quote">Secure your journey with ease – where adventures meet seamless payments</p>
+                
+                    <div class="container mt-5 mb-4 text-center align-content-center justify-content-center">
+                        <div class="row">
+                            <div class="col-md-6 p-2">
+                                <h2 style="color: #fff;">Payment-Portal</h2>
+                                <img class="Image1" src="https://i.ibb.co/hgJ7z3J/6375aad33dbabc9c424b5713-card-mockup-01.png" alt="6375aad33dbabc9c424b5713-card-mockup-01" calss="img-fluid mt-5">
+                            </div>
+                            <div class="col-md-4 p-5 mb-5 bg-white">
+                                <form action="#" method="#">
+                                    <div class="form-floating mb-2">
+                                        <input type="type" class="form-control input-sm" id="floatingInput" placeholder="Card Number" required>
+                                        <label for="floatingInput inputsm"><i class="fab fa-cc-visa"></i>&nbsp;&nbsp;Card&nbsp;&nbsp;Holder&nbsp;&nbsp;Number</label>
+                                      </div>
+                                      <div class="form-floating mb-2">
+                                        <input type="name" class="form-control input-sm" id="floatingInput" placeholder="Card Holder" required>
+                                        <label for="floatingInput inputsm"><i class="fas fa-user"></i>&nbsp;&nbsp;Card&nbsp;&nbsp;Holder&nbsp;&nbsp;Name</label>
+                                      </div>
+                                      <div class="form-floating mb-2">
+                                        <input type="text" class="form-control input-sm" id="floatingInput" placeholder="Expiry Date" required>
+                                        <label for="floatingInput inputsm"><i class="fas fa-calendar"></i>&nbsp;&nbsp;Expiry&nbsp;&nbsp;Date</label>
+                                      </div>
+                                      <div class="form-floating mb-2">
+                                        <input type="text" class="form-control input-sm" id="floatingInput" placeholder="CVV" required>
+                                        <label for="floatingInput inputsm"><i class="fas fa-lock"></i>&nbsp;&nbsp;CVV</label>
+                                      </div>
+                                      <div class="row p-5 mt-2">
+                                        <a href="#" role="button" class="btn payment-btn" onclick="showLoading(event, this)" type="submit">Pay Now</a>
+                                      </div>
+                                </form>
+                                <div class="social-icons text-center">
+                                    <a href="#"><i class="fab fa-facebook"  style="color: #3b5998;"></i></a>
+                                    <div class="vr" style="color: #000;"></div>
+                                    <a href="#"><i class="fab fa-youtube"   style="color: #ed302f;"></i></a>
+                                    <div class="vr"  style="color: #000;"></div>
+                                    <a href="#"><i class="fab fa-instagram" style="color: #ac2bac;"></i></a>
+                                    <div class="vr"  style="color: #000;"></div>
+                                    <a href="#"><i class="fab fa-twitter"   style="color: #55acee;"></i></a>
+                                  </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+      </div>
+
+
+        <script>
+            //payemnt javascript
+            function showLoading(event, button) {
+            event.preventDefault(); // Prevent form submission
+
+            button.innerHTML = "Processing Payment...";
+
+            setTimeout(function() {
+                button.innerHTML = "Payment completed.";
+            }, 3000); // Change to the desired duration in milliseconds
+            }
+        </script>
+
+
+
+
+
+</body>
+</html>

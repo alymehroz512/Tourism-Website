@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Agbalumo&family=Alfa+Slab+One&family=Alumni+Sans+Inline+One&family=Bebas+Neue&family=Bungee+Inline&family=Dancing+Script&family=Fjalla+One&family=Gloria+Hallelujah&family=Kenia&family=Lato&family=Noto+Serif+Old+Uyghur&family=Pinyon+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Agbalumo&family=Alfa+Slab+One&family=Alumni+Sans+Inline+One&family=Bebas+Neue&family=Bungee+Inline&family=Dancing+Script&family=Fjalla+One&family=Gloria+Hallelujah&family=Kenia&family=Lato&family=Noto+Serif+Old+Uyghur&family=Pinyon+Script&family=Quicksand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Agbalumo&family=Alex+Brush&family=Alfa+Slab+One&family=Alumni+Sans+Inline+One&family=Bebas+Neue&family=Bungee+Inline&family=Dancing+Script&family=Fjalla+One&family=Gloria+Hallelujah&family=Kenia&family=Lato&family=Noto+Serif+Old+Uyghur&family=Pinyon+Script&family=Quicksand&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+
+body {
+
+    background-image: url("../IMAGES/booking-background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 90vh;
+    width: 100%;
+}
+
+.payment-heading {
+    text-align: center;
+    font-family: 'Quicksand';
+    color: #fff;
+    margin-top: 50px;
+    font-weight: 888;
+}
+
+
+.payment-quote {
+    font-family: 'Quicksand';
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.Image1 {
+    padding: 10px 10px;
+    margin-top: 0;
+    width: 350px;
+}
+
+label {
+    font-family: 'Quicksand';
+    color: #000;
+}
+
+.form-control {
+    border: none;
+    font-family: 'Quicksand';
+    border-bottom: 1px solid #000;
+    border-radius: 0%;
+    background-color: transparent;
+}
+
+input {
+    color: #000;
+}
+
+.payment-btn {
+    text-decoration: none;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Quicksand';
+    font-size: 18px;
+    background-color: #000;
+    border-radius: 0%;
+}
+
+
+.payment-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.social-icons {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 888;
+}
